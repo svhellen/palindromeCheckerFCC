@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Palindrome Checker</title>
+  </head>
+  <body>
+    <main>
+      <h1>Is it a Palindrome?</h1>
+      <form id="form">
+        <h2>Enter in text to check for a palindrome:</h2>
+        <input type="text" id="text-input" />
+        <button type="button" id="check-btn" onclick="checkIfItsPalindrome()">
+          Check
+        </button>
+        <div id="result">
+            The result will be displayed here
+        </div>
+      </form>
+      <div class="card">
+        <p>
+          A <em>palindrome</em> is a word or sentence that's spelled the same
+          way both forward and backward, ignoring punctuation, case, and
+          spacing.
+        </p>
+      </div>
+    </main>
+    <footer>
+      <div id="social-links">
+        <a href="https://github.com/svhellen" target="_blank"
+          ><i class="fa fa-github"></i
+        ></a>
+        <a href="https://linkedin.com/in/cristielesilva" target="_blank"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+        <a href="mailto:contato.cristiele@gmail.com" target="_blank"
+          ><i class="fa fa-envelope"></i
+        ></a>
+        <!-- <a href="https://codepen.io/hellensil" target="_blank">
+            <i class="fa fa-codepen"></i>
+          </a> -->
+        <a href="https://www.instagram.com/nellehts/" target="_blank"
+          ><i class="fa fa-instagram"></i
+        ></a>
+      </div>
+      <p>Designed and built with all the love by:</p>
+      <a href="https://github.com/svhellen" target="_blank" class="author">Cristiele</a>
+      <p>Copyright &copy; 2024</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
